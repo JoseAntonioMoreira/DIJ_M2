@@ -24,12 +24,6 @@ public class Room : Parameters
 
     }
 
-   /* protected Room(float enemyPercentage,RoomDifficult difficult)
-    {
-        this.enemyPercentage = enemyPercentage;
-        this.difficult = difficult;
-    }*/
-
     public void SpawnEnemies(int statsAmount,int[] statsValue,int enemyAmount)
     {
         if (enemyPercentage > 0 && Random.value <= enemyPercentage)
